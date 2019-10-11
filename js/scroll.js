@@ -1,6 +1,6 @@
 $(function(){
   $(".btn1").click(function(){
-    $(window).scrollTop(850);
+    $(window).scrollTop("");
   });
 
   $(".btn2").click(function(){
@@ -12,6 +12,6 @@ $(function(){
   });
 
   $(".btn4").click(function(){
-    $(window).scrollTop(3500);
+    $(window).scrollTop(3600);
   });
 });
