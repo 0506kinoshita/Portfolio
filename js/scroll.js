@@ -1,6 +1,6 @@
 $(function(){
   $(".btn1").click(function(){
-    $(window).scrollTop("");
+    $(window).scrollTop(850);
   });
 
   $(".btn2").click(function(){
