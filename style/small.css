@@ -1,0 +1,18 @@
+@media (max-width: 670px) {
+  .btns {
+    flex-direction: column;
+    margin:50px 0 0 0;
+  }
+  
+  .btn {
+    margin: 10px auto;
+  }
+  #skill{
+    flex-direction: column;
+
+  }
+  .icon{
+    margin:0 auto;
+  }
+  
+}

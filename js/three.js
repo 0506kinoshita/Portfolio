@@ -37,7 +37,7 @@
       let fontSize = 80;
       let fontHeight = 16;
       let fontCurveSegments = 20;
-      let itemCount = 100;
+      let itemCount = 1;
       const materialP = new THREE.MeshStandardMaterial({
         color: 0xFFFF00
       });

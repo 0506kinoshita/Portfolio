@@ -1,0 +1,44 @@
+@media (max-width: 1000px) {
+  .btns {
+    flex-wrap: wrap;
+    margin:50px 0 0 0;
+  }
+  .btn {
+    flex-wrap:wrap;
+    width: 45%;
+    margin: 10px 2%;
+  }
+  .contents{
+    text-align: center;
+  }
+  #skill{
+    /* margin:0 0 0 100px; */
+    flex-wrap: wrap;
+    /* padding:10px; */
+  }
+  .icon{
+    /* flex-wrap: wrap; */
+    /* max-width: 100%;
+    height:auto; */
+    /* width: 25%; */
+    /* flex-wrap:wrap; */
+    /* flex: auto; */
+    /* width:30%; */
+  }
+  .normal{
+    margin: 0 auto;
+  }
+  .sentence{
+    margin:40px 0 0 0;
+    padding:0;
+    flex: auto;
+  }
+  .product{
+    /* max-width: 100%; */
+    width:80%;
+    height: auto;
+  }
+  .left{
+    text-align: center;
+  }
+}
