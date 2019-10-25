@@ -6,12 +6,15 @@
   .btn {
     margin: 10px auto;
   }
-  #skill{
+  #skills{
     flex-direction: column;
+    margin: 20px 20%;
   }
   .icon{
     margin:0 auto;
-    width: 70%;
+    width: 50%;
+    height:auto;
+    padding:5% 0;
   }
   .skill{
     display: inline-block;
@@ -50,11 +53,10 @@
     padding:12px;
   }
   .products h2{
-    font-size:12px;
-
+    font-size:16px;
   }
   .smallOpen{
-    font-size:12px;
+    font-size:16px;
   }
   #mail h{
     font-size:16px;

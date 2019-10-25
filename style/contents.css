@@ -96,13 +96,14 @@ u{
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
   margin:20px 0 0 0;
 }
-#skill{
+#skills{
   display: flex;
+  margin:28px 10%;
 }
 .icon{
   width: 25%;
-  height: 180px;
-  padding: 28px 0;
+  height: auto;
+  padding:0 2%;
 }
 .profile{
   display: flex;
@@ -110,7 +111,7 @@ u{
 }
 .normal{
   width: 320px;
-  height: 400px;
+  height: auto;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
 }
 .sentence{
@@ -167,11 +168,6 @@ u{
   padding: 40px 20px;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
   text-align: center;
-}
-#qrcode{
-  height: 400px;
-  width: 400px;
-  box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
 }
 #mail h{
   font-size:32px;
