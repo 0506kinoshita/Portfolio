@@ -38,7 +38,7 @@ u{
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
   opacity: 0.85;
-  padding:12px 0;
+  padding:12px ;
   width:35%;
   color:white;
   font-family: cursive;
@@ -65,7 +65,6 @@ u{
   text-decoration: none;
   color: inherit;
 }
-
 .btn:hover{
   color:#fff;
   z-index: 1;
@@ -84,8 +83,6 @@ u{
   top:0;
   border-radius: 0 0 50% 50%;
 }
-
-
 .btn2::before,.btn4::before{
   bottom:0;
   border-radius: 50% 50% 0 0;
@@ -93,34 +90,24 @@ u{
 .btn:hover::before{
   height:180%;
 }
-
-/* 画像 */
 .product{
   width: 320px;
   height: 400px;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
   margin:20px 0 0 0;
 }
-/* #skillTitle{
-  margin:0 auto;
-} */
 #skill{
-  /* text-align: center; */
   display: flex;
-  
 }
 .icon{
-  width: 150px;
+  width: 25%;
   height: 180px;
   padding: 28px 0;
-  margin: 0 28px;
-  flex:auto;
 }
 .profile{
   display: flex;
   flex-wrap: wrap;
 }
-/* 写真 */
 .normal{
   width: 320px;
   height: 400px;
@@ -146,7 +133,6 @@ u{
 .contents{
   background-color: #fff;
   padding: 20px;
-  /* text-align: center; */
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
 }
 .contents h2{
@@ -155,8 +141,6 @@ u{
   text-align: center;
 }
 .products{
-  /* display: flex;
-  flex-wrap: wrap; */
   background-color: #fff;
   padding: 20px;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
@@ -189,11 +173,11 @@ u{
   width: 400px;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
 }
-#line{
-  margin: 0 0 32px 0;
+#mail h{
+  font-size:32px;
 }
-#line p{
-  font-size: 24px;
+#mail p{
+  font-size:20px;
 }
 .modal{
   display: none;
@@ -228,7 +212,7 @@ u{
   color:#444444;
   font-size:48px;
 }
-#repsOpen,#portfolioOpen{
+.smallOpen{
   cursor: pointer;
   color:#444444;
   font-size:24px;

@@ -3,16 +3,71 @@
     flex-direction: column;
     margin:50px 0 0 0;
   }
-  
   .btn {
     margin: 10px auto;
   }
   #skill{
     flex-direction: column;
-
   }
   .icon{
     margin:0 auto;
+    width: 70%;
   }
-  
+  .skill{
+    display: inline-block;
+  }
+  #skillOpen{
+    display: inline-block
+  }
+  #link{
+    font-size:4px;
+  }
+  #titleBox{
+    font-size: 16px;
+    padding:8px;
+  }
+  .btn{
+    font-size:20px;
+  }
+  .title{
+    font-size:36px;
+  }
+  header{
+    margin:80px 0 20px 0;
+  }
+  .sentence{
+    margin:20px;
+    font-size:16px;
+  }
+  .normal{
+    height:auto;
+    width:100%;
+  }
+  .contents{
+    padding:12px;
+  }
+  .products{
+    padding:12px;
+  }
+  .products h2{
+    font-size:12px;
+
+  }
+  .smallOpen{
+    font-size:12px;
+  }
+  #mail h{
+    font-size:16px;
+    font-weight: bold;
+  }
+  #mail p{
+    font-size:12px;
+    padding:20px 0;
+  }
+  .contact{
+    padding:20px 0 0 0;
+  }
+  u{
+    letter-spacing: 0;
+  }
 }
