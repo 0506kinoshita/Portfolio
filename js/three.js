@@ -4,7 +4,7 @@
   let renderer;
   let width = window.innerWidth;
   let height = window.innerHeight * 0.80;
-  let controls;
+  // let controls;
   let loader;
 
   // scene ステージ
@@ -16,7 +16,7 @@
   camera.lookAt(scene.position);
 
   // controls
-  controls = new THREE.OrbitControls(camera);
+  // controls = new THREE.OrbitControls(camera);
 
   // renderer
   renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -32,12 +32,12 @@
   loader = new THREE.FontLoader();
   loader.load( 'https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function ( font ) {
     createText(font);
-    render();
+    // render();
     function createText(font) {
       let fontSize = 80;
       let fontHeight = 16;
       let fontCurveSegments = 20;
-      let itemCount = 1;
+      let itemCount = 100;
       const materialP = new THREE.MeshStandardMaterial({
         color: 0xFFFF00
       });
@@ -193,9 +193,11 @@
     requestAnimationFrame(tick);
   }
 
-  function render() {
-    requestAnimationFrame(render);
-    controls.update();
-    renderer.render(scene, camera);
-  }
+  // function render() {
+  //   requestAnimationFrame(render);
+  //   controls.update();
+  //   renderer.render(scene, camera);
+  // }
 })();
+
+
