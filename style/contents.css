@@ -54,7 +54,7 @@ u{
   flex:auto;
   border: 1px solid black;
   padding:4px;
-  margin:60px 10px;
+  margin:60px 10px 0 10px;
   position: relative;
   overflow: hidden;
   transition: 0.8s;
@@ -94,7 +94,7 @@ u{
   width: 320px;
   height: 400px;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
-  margin:20px 0 0 0;
+  margin:20px 0 0 80px;
 }
 #skills{
   display: flex;
@@ -108,6 +108,7 @@ u{
 .profile{
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 .normal{
   width: 320px;
@@ -120,6 +121,10 @@ u{
   width: 55%;
   text-align: left;
   vertical-align: top;
+}
+.sentenseAdd{
+  padding:0;
+  width:100%;
 }
 #link{
   display: block;
@@ -201,6 +206,7 @@ u{
 }
 .close{
   float:right;
+  padding:0 4px 4px 4px;
   cursor: pointer;
 }
 #skillOpen{

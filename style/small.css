@@ -20,7 +20,8 @@
     display: inline-block;
   }
   #skillOpen{
-    display: inline-block
+    display: inline-block;
+    font-size:24px;
   }
   #link{
     font-size:4px;
@@ -71,5 +72,16 @@
   }
   u{
     letter-spacing: 0;
+  }
+  .modal{
+    width:80%;
+    height:90%;
+    overflow: scroll;
+  }
+  .modalTitle{
+    font-size:20px;
+  }
+  .modalHeader{
+    padding:12px 8px;
   }
 }
