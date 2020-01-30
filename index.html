@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="style/contents.css" type="text/css" />
 		<link rel="stylesheet" href="style/middle.css" type="text/css" />
 		<link rel="stylesheet" href="style/small.css" type="text/css" />
-
+		<link rel="icon" type="image/png" href="favicon.ico">
 		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	</head>
@@ -23,7 +23,7 @@
 					<a href="#profileTitle" class="btn btn1"><li >PLOFILE</li></a>
 					<a href="#skillTitle" class="btn btn2"><li >SKILE</li></a>
 					<a href="#productTitle" class="btn btn3"><li >PRODUCTS</li></a>
-					<a href="#contuctTitle" class="btn btn4"><li >CONTACT</li></a>
+					<a href="#contuctTitle" class="btn btn4"><li >MAIL</li></a>
 				</ul>
 				<section id="profileTitle">
 					<header>
@@ -37,13 +37,11 @@
 									初めまして木下滉貴と申します<br>
 									1995年生まれ24歳です<br>
 									出身：大阪<br>
-									前職：日用品の営業<br>
+									経歴：<br>
 									2019年3月よりプログラミングスクールTECH::EXPERTにて学習を開始<br>
-									現在はフルタイムで別の仕事で働きつつ学習を続けています<br><br>
-									大学は経済学部出身で完全初心者からの学習でした<br>
-									自分で何かを作り出してみたい！<br>
-									エンジニア、プログラマーってなんかカッコ良い!<br>
-									という単純な動機ではありますが日々学習を続けています。
+									2019年8月よりフロントエンドエンジニアとしてキャリアスタート<br>
+
+									
 								</p>
 							</div>
 						</div>
@@ -65,16 +63,17 @@
 						</div>
 					</div>
 				</section>
+
 				<section id="productTitle">
 					<header>
-						<h1 class="title">PRODUCTS</h1>
+						<h1 class="title">MAIL</h1>
 					</header>
 					<div class="products">
 						<h2>REPS&nbsp;&nbsp;&nbsp;&nbsp;<u id="repsOpen" class="smallOpen">詳細はこちら</u></h2>
 						<div class="profile">
 							<div class="left">
 								<p>実際のアプリのURLです</p>
-								<a href="https://appreps.herokuapp.com" id="link">https://appreps.herokuapp.com</a>
+								<a href="https://appreps.herokuapp.com" class="link" target="_blank" rel="noopener noreferrer">https://appreps.herokuapp.com</a>
 								<image src="image/reps.png" class="product"></image>
 							</div>
 							<div class="sentence">
@@ -96,8 +95,31 @@
 							</div>
 						</div>
 					</div>
+
+
 					<div class="products">
-						<h2>ポートフォリオ&nbsp;&nbsp;&nbsp;&nbsp;<u id="portfolioOpen" class="smallOpen">詳細はこちら</u>
+						<h2>ポートフォリオ&nbsp;&nbsp;&nbsp;&nbsp;<u id="nengazyouOpen" class="smallOpen">詳細はこちら</u>
+						</h2>
+						<div class="profile">
+							<div class="left">
+								<a href="https://tender-allen-ae5965.netlify.com/" class="link" target="_blank" rel="noopener noreferrer">https://tender-allen-ae5965.netlify.com/</a>
+								<image src="image/nengazyou.png" class="product"></image>
+							</div>
+							<div class="sentence">
+								<p>
+									[使用言語]<br>
+									・html css<br>
+									・jquery<br>
+									WEB版の年賀状です<br>
+									LP制作において使われるであろう技術を使っています。
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="products">
+						<h2>年賀状&nbsp;&nbsp;&nbsp;&nbsp;<u id="portfolioOpen" class="smallOpen">詳細はこちら</u>
 						</h2>
 						<div class="profile">
 							<div class="left">
@@ -111,6 +133,7 @@
 									[使用言語]<br>
 									・html css<br>
 									・three.js<br>
+									・javascript
 									・jquery<br><br>
 									現在働いている企業内でのWebアプリコンテストに応募した際の作品でもあります。<br>
 									フルタイムでの仕事をしながら一からの勉強だったthree.jsの実装、そして一つの作品を仕上げることができたことは自分の中で自信につながりました。
@@ -118,10 +141,12 @@
 							</div>
 						</div>
 					</div>
+
+
 				</section>
 				<section id="contuctTitle">
 					<header>
-						<h1 class="title">CONTACT</h1>
+						<h1 class="title">MAIL</h1>
 					</header>
 					<div class="contact">
 						<div id="mail">
@@ -166,6 +191,24 @@
 				</p>
 			</div>
 		</div>
+
+		<div class="modal nengazyouModal">
+			<div class="modalHeader">
+				<div class="close"><i class="fas fa-times" size:3x></i></div>
+				<h1 class="modalTitle">WEB年賀状</h1>
+			</div>
+			<div class="modalCenter">
+				<p>
+					・html cssメインです。<br>
+					工夫点<br>
+					・画面左上と右下にそれぞれ画像を固定した点<br>
+					・「2020年もよろしくお願いします」の文字を囲っている四方の鉤括弧<br>
+					ーー最初要素がゆっくり出てくるところはjquery、またおみくじはjavascriptを使っています。<br>
+
+				</p>
+			</div>
+		</div>
+
 		<div class="modal portfolioModal">
 			<div class="modalHeader">
 				<div class="close"><i class="fas fa-times" size:3x></i></div>

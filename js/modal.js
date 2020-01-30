@@ -28,4 +28,10 @@ $(function() {
       filter: 'blur(8px)'
     })
   });
+  $("#nengazyouOpen").click(function(){
+    $(".nengazyouModal").fadeIn();
+    $("#wrapper").css({
+      filter: 'blur(8px)'
+    })
+  });
 });
