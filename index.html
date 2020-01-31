@@ -18,7 +18,7 @@
 					<h1 id="titleBox">Kouki Kinosita</h1>
 				</div>
 			</div>
-			<div id="center">
+			<div class="center">
 				<ul class="btns">
 					<a href="#profileTitle" class="btn btn1"><li >PLOFILE</li></a>
 					<a href="#skillTitle" class="btn btn2"><li >SKILE</li></a>
@@ -27,35 +27,35 @@
 				</ul>
 				<section id="profileTitle">
 					<header>
-						<h1 class="title">PLOFILE</h1>
+						<h1 class="title titleBigSize">PLOFILE</h1>
 					</header>
 					<div class="contents">
-						<h3 id="myname">木下滉貴</h3>
-						<div class="profile">
-							<div class="sentence sentenseAdd">
-								<p>
-									初めまして木下滉貴と申します<br>
-									1995年生まれ24歳です<br>
-									出身：大阪<br>
-									経歴：<br>
-									2019年3月よりプログラミングスクールTECH::EXPERTにて学習を開始<br>
-									2019年8月よりフロントエンドエンジニアとしてキャリアスタート<br>
+						<h2 id="myname">木下滉貴</h3>
+						<div class="sentence sentenseAdd">
+							<p>
+								初めまして木下滉貴と申します<br>
+								1995年生まれ24歳です<br>
+								<span class="dai">出身：</span>大阪<br>
+								<span class="dai margin">経歴：</span>
+								2019年3月よりプログラミングスクールTECH::EXPERTにて学習を開始<br>
+								主にRuby on Railsについて学習を行いました。<span class="margin"></span>
+								<span class="margin">2019年8月よりフロントエンドエンジニアとしてキャリアをスタートしました。</span>
+								自社コンテンツ、受託プロジェクトのフロント側のコーディングを担当
 
-									
-								</p>
-							</div>
+								<span id="zikosyoukaiModal" class="open"><u>詳細はこちら</u></span>
+							</p>
 						</div>
 					</div>
 				</section>
 				<section id="skillTitle">
 					<header>
-						<h1 class="title skill">SKILL<span>&nbsp;&nbsp;&nbsp;</span>
-							<u id="skillOpen" class="open">詳細はこちら</u>
-						</h1>
+						<h1 class="title titleBigSize">SKILL</h1>
+						<u id="skillOpen" class="open">詳細はこちら</u>
+
 					</header>
 					<div class="contents">
-						<h2>メイン技術</h2>
-						<div id="skills">
+						<h2 class="dai">メイン技術</h2>
+						<div class="skills">
 							<image src="image/htmlcss.png" class="icon" ></image>
 							<image src="image/js.png" class="icon" ></image>
 							<image src="image/react.jpg" class="icon" ></image>
@@ -66,10 +66,10 @@
 
 				<section id="productTitle">
 					<header>
-						<h1 class="title">MAIL</h1>
+						<h1 class="title titleBigSize">PRODUCT</h1>
 					</header>
 					<div class="products">
-						<h2>REPS&nbsp;&nbsp;&nbsp;&nbsp;<u id="repsOpen" class="smallOpen">詳細はこちら</u></h2>
+						<h2><span class="title">REPS</span><u class="repsOpen smallOpen open">詳細はこちら</u></h2>
 						<div class="profile">
 							<div class="left">
 								<p>実際のアプリのURLです</p>
@@ -78,19 +78,10 @@
 							</div>
 							<div class="sentence">
 								<p>
-									（制作期間6月半ばの約2週間）<br>
-									完全オリジナルアプリです
-									<br><br>
-									[使用言語]<br>
-									・Ruby on Rails<br>
-									・haml<br>
-									・sass<br>
-									・jquery<br>
-									DB： MYSQL<br>
-									デプロイ： heloku<br>
-									<br>
-									機能）<br>
-									ユーザー新規登録、ログイン、ログアウト、曲登録、消去
+									スクールのカリキュラム終了後Ruby on Rails を用いて作成した完全オリジナルアプリです。<br>
+									2019年6月半ばの約2週間で作成したものです<br><span class="margin"></span>
+									カラオケ好きの人を対象とした自分が歌える曲を管理できるアプリです<span class="margin"></span>
+									<u class="repsOpen smallOpen open">詳細はこちら</u>
 								</p>
 							</div>
 						</div>
@@ -98,20 +89,21 @@
 
 
 					<div class="products">
-						<h2>ポートフォリオ&nbsp;&nbsp;&nbsp;&nbsp;<u id="nengazyouOpen" class="smallOpen">詳細はこちら</u>
+						<h2><span class="title">WEB年賀状</span><u class="nengazyouOpen smallOpen open">詳細はこちら</u>
 						</h2>
 						<div class="profile">
 							<div class="left">
+								<p>実際のアプリのURLです</p>
 								<a href="https://tender-allen-ae5965.netlify.com/" class="link" target="_blank" rel="noopener noreferrer">https://tender-allen-ae5965.netlify.com/</a>
 								<image src="image/nengazyou.png" class="product"></image>
 							</div>
 							<div class="sentence">
 								<p>
-									[使用言語]<br>
-									・html css<br>
-									・jquery<br>
-									WEB版の年賀状です<br>
-									LP制作において使われるであろう技術を使っています。
+									（制作期間2020年1月）2.3日で完成させました<br>
+									WEB版の年賀状で、１枚紙のLPです<span class="margin"></span>
+									上下に配置した画像の固定、ボタンの色のグラデーション他細かいところにこだわった作品です。<span class="margin"></span>
+									一度ご覧ください。<span class="margin"></span>
+									<u class="nengazyouOpen smallOpen open">詳細はこちら</u>
 								</p>
 							</div>
 						</div>
@@ -119,38 +111,34 @@
 
 
 					<div class="products">
-						<h2>年賀状&nbsp;&nbsp;&nbsp;&nbsp;<u id="portfolioOpen" class="smallOpen">詳細はこちら</u>
+						<h2><span class="title">ポートフォリオ</span><u class="portfolioOpen smallOpen open">詳細はこちら</u>
 						</h2>
 						<div class="profile">
 							<div class="left">
 								<image src="image/portfolio.png" class="product"></image>
 							</div>
 							<div class="sentence">
+
 								<p>
-									（制作期間9月~10月）three.js部分2週間、その他3日<br>
-									現在ご覧いただいているページです
-									<br><br>
-									[使用言語]<br>
-									・html css<br>
-									・three.js<br>
-									・javascript
-									・jquery<br><br>
-									現在働いている企業内でのWebアプリコンテストに応募した際の作品でもあります。<br>
-									フルタイムでの仕事をしながら一からの勉強だったthree.jsの実装、そして一つの作品を仕上げることができたことは自分の中で自信につながりました。
+									（制作期間2019年9月~10月）<br>
+									three.js部分2週間、その他3日<span class="margin"></span>
+									現在ご覧いただいているページです<span class="margin"></span>
+									自社内で開催されたWebアプリコンテストに応募した際の作品でもあります。<span class="margin"></span>
+									フルタイムで業務をこなしながら一からの勉強だったthree.jsの実装、それを１つの作品として仕上げることができたことは自分の中で自信につながりました。<span class="margin"></span>
+									<u class="portfolioOpen smallOpen open">詳細はこちら</u>
 								</p>
 							</div>
 						</div>
 					</div>
 
-
 				</section>
 				<section id="contuctTitle">
 					<header>
-						<h1 class="title">MAIL</h1>
+						<h1 class="title titleBigSize">MAIL</h1>
 					</header>
 					<div class="contact">
 						<div id="mail">
-							<h>ご連絡はこちらまで！！！</h>
+							<h class="margin">ご連絡はこちらまで！！！</h>
 							<p>0506kinoshita@gmail.com</p>
 						</div>
 					</div>
@@ -161,6 +149,22 @@
 		<script src="js/three.min.js"></script>
 		<script src="js/OrbitControls.js"></script>
 		<script src="js/three.js"></script>
+
+		<div class="modal zikosyoukaiModal">
+			<div class="modalHeader">
+				<div class="close"><i class="fas fa-times" size:3x></i></div>
+				<h1 class="modalTitle">PLOFILE詳細</h1>
+			</div>
+			<div class="modalCenter">
+				<p>
+					業務ではhtml(jsx) css がメインです。<span class="margin"></span>
+					受託案件：ディレクターからの指示を受けLP制作コーディングを行っています。<span class="margin"></span>
+					自社案件：言語は主にReactとReduxを使っています。<br>
+					コンテンツ制作については、ログイン画面、モーダル画面、プロフィール画面等のコーディングを行っています。<br>
+				</p>
+			</div>
+		</div>
+
 		<div class="modal skillModal">
 			<div class="modalHeader">
 				<div class="close"><i class="fas fa-times"></i></div>
@@ -168,13 +172,13 @@
 			</div>
 			<div class="modalCenter">
 				<p>
-					学習期間2019年3月〜<br>
-					3~6月は主にrails、6月〜html css js、8月半ば〜react<br><br>
-					触れたことのある技術<br><br>
+					2019年3月〜プログラミング学習開始<br>
+					3~6月は主にrails、6月〜html css js、8月半ば〜react<br><span class="margin"></span>
+					触れたことのある技術<br>
 					html css haml sass javascript jQuery react three.js Ruby RubyonRails<br>
 					git github AWS heroku <br>
-					MySQL 等<br><br>
-					現在は react について学習しており、フロントエンドエンジニア目指して学習を続けています。
+					MySQL 等<br><span class="margin"></span>
+					現在はhtml css はもちろんですがJavaScriptを中心に学習を行なっています。
 				</p>
 			</div>
 		</div>
@@ -184,11 +188,18 @@
 				<h1 class="modalTitle">カラオケでのレパートリー管理アプリ</h1>
 			</div>
 			<div class="modalCenter">
-				<p>
-					スクールのカリキュラム終了後 Ruby On Rails を用いて作成しました。<br><br>
-					カラオケ好きの人を対象としたレパートリー管理アプリです<br><br>
-					railsはログイン画面、登録画面とそれぞれのview画面に遷移し、そこで情報をやりとりすることが主流ですが、今回はローカル環境でいう"localhost:3000"のページで全ての処理が完結するものを作ってみました。
-				</p>
+					<p>
+						<span class="margin">[使用言語]<br>
+						・Ruby on Rails<br>
+						・haml<br>
+						・sass<br>
+						・jquery<br>
+						DB： MYSQL<br>
+						デプロイ： heloku</span>
+						機能）<br>
+						ユーザー新規登録、ログイン、ログアウト、曲登録、消去<span class="margin"></span>
+						Ruby on Rails はログイン画面、登録画面とそれぞれのview画面に遷移し、そこで情報をやりとりすることが主流ですが、今回はローカル環境でいう"localhost:3000"のページで全ての処理が完結するものを作成しました。
+					</p>
 			</div>
 		</div>
 
@@ -199,12 +210,15 @@
 			</div>
 			<div class="modalCenter">
 				<p>
-					・html cssメインです。<br>
-					工夫点<br>
-					・画面左上と右下にそれぞれ画像を固定した点<br>
-					・「2020年もよろしくお願いします」の文字を囲っている四方の鉤括弧<br>
-					ーー最初要素がゆっくり出てくるところはjquery、またおみくじはjavascriptを使っています。<br>
-
+					<span class="margin">[使用言語]<br>
+					・html css<br>
+					・jquery<br>
+					・javascript
+				</span>
+				機能）<br>
+					jqueryを使って要素を遅れて表示させる機能<br>
+				「2020年もよろしくお願いします」の文字を囲っている四方の鉤括弧<br>
+					javascriptを使ったおみくじ機能<br>
 				</p>
 			</div>
 		</div>
@@ -216,13 +230,21 @@
 			</div>
 			<div class="modalCenter">
 				<p>
-					・three.jsを用いた３D描画<br>
-					・メディアクエリを用いたレスポンシブ対応<br>
-					・マテリアルデザインの採用<br><br>
+					[使用言語]<br>
+					・html css<br>
+					・three.js<br>
+					・javascript<br>
+					・jquery<span class="margin"></span>
+					機能）<br>
+					three.jsを用いた３D描画
+					メディアクエリを用いたレスポンシブ対応<br>
+					マテリアルデザインの採用<span class="margin"></span>
 					「かっこいいポートフォリオ作ってみたい」「一度three.jsに触れてみたい」という気持ちから作成しました<br>
-					マテリアルデザインは実際に扱ってみるのは初めてでしたが「影をつける」「色を多く使わない」等ユーザーの見やすさを意識して作成しました。<br><br>
+					「影をつける」「色を多く使わない」等ユーザーの見やすさを意識して作成しました。<br>
 				</p>
 			</div>
 		</div>
+
+
 	</body>
 </html>

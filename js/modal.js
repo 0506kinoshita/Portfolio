@@ -16,20 +16,26 @@ $(function() {
       filter: 'blur(8px)'
     })
   });
-  $("#repsOpen").click(function(){
+  $(".repsOpen").click(function(){
     $(".repsModal").fadeIn();
     $("#wrapper").css({
       filter: 'blur(8px)'
     })
   });
-  $("#portfolioOpen").click(function(){
+  $(".portfolioOpen").click(function(){
     $(".portfolioModal").fadeIn();
     $("#wrapper").css({
       filter: 'blur(8px)'
     })
   });
-  $("#nengazyouOpen").click(function(){
+  $(".nengazyouOpen").click(function(){
     $(".nengazyouModal").fadeIn();
+    $("#wrapper").css({
+      filter: 'blur(8px)'
+    })
+  });
+  $("#zikosyoukaiModal").click(function(){
+    $(".zikosyoukaiModal").fadeIn();
     $("#wrapper").css({
       filter: 'blur(8px)'
     })

@@ -4,23 +4,35 @@
 body{
   background-color: #e1e2e1;
   width: 100%;
-  padding:0 0 24px 0;
 }
 section{
-  margin:80px 10%;
+  margin:160px 0 0 0;
 }
-header{
-  margin:160px 0 40px 0;
+.center{
+  padding:0 10% 10% 10%;
 }
+
 header h1{
   font-family:monospace;
   font-weight: 900;
   font-size: 24px;
 }
-u{
+.margin{
+  display: block;
+  margin-bottom:20px;
+}
+.open{
   cursor: pointer;
-  color:black;
+  color:#8d8d8d;
   letter-spacing: 8px;
+}
+.open:hover{
+  color:#444444;
+  transition: .2s;
+}
+#zikosyoukaiModal{
+  letter-spacing: 4px;
+  margin:0 0 0 20px;
 }
 .wrapperTop{
   width:100%;
@@ -91,12 +103,12 @@ u{
   height:180%;
 }
 .product{
-  width: 320px;
-  height: 400px;
+  width: 370px;
+  height: 300px;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
-  margin:20px 0 0 80px;
+  margin:40px 0;
 }
-#skills{
+.skills{
   display: flex;
   margin:28px 10%;
 }
@@ -107,8 +119,7 @@ u{
 }
 .profile{
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
+
 }
 .normal{
   width: 320px;
@@ -116,11 +127,9 @@ u{
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
 }
 .sentence{
-  padding: 0 0 0 10%;
   font-size: 24px;
-  width: 55%;
+  width: 50%;
   text-align: left;
-  vertical-align: top;
 }
 .sentenseAdd{
   padding:0;
@@ -130,7 +139,8 @@ u{
   display: block;
 }
 .left{
-  /* display: inline-block; */
+  width: 50%;
+  text-align: center;
 }
 .left p{
   margin: 16px 0 0 0;
@@ -139,13 +149,17 @@ u{
 .contents{
   background-color: #fff;
   padding: 20px;
+  margin:20px 0 0 0;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
 }
 .contents h2{
   font-size: 24px;
-  font-weight: bold;
   text-align: center;
 }
+.dai{
+  font-weight: bold;
+}
+
 .products{
   background-color: #fff;
   padding: 20px;
@@ -155,22 +169,29 @@ u{
 .products h2{
   font-size: 24px;
   font-weight: bold;
+  margin:0 0 20px 0;
 }
 #myname{
   font-size: 32px;
+  font-weight: bold;
   text-align: center;
-  padding: 0 0 16px 0;
+  margin: 0 0 16px 0;
+}
+.titleBigSize{
+  font-size: 70px;
+  font-family: 'Impact';
 }
 .title{
-  margin: 60px 0 0 0;
-  font-family: 'Impact';
-  font-size: 70px;
+  margin:0 5% 0 0;
   font-weight: 600;
   letter-spacing: 8px;
+  display: inline-block;
 }
+
 .contact{
   background-color: #fff;
   padding: 40px 20px;
+  margin: 20px 0 0 0;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
   text-align: center;
 }
@@ -209,13 +230,10 @@ u{
   padding:0 4px 4px 4px;
   cursor: pointer;
 }
+
 #skillOpen{
-  cursor: pointer;
-  color:#444444;
   font-size:48px;
 }
 .smallOpen{
-  cursor: pointer;
-  color:#444444;
   font-size:24px;
 }

@@ -6,7 +6,7 @@
   .btn {
     margin: 10px auto;
   }
-  #skills{
+  .skills{
     flex-direction: column;
     margin: 20px 20%;
   }
@@ -15,9 +15,6 @@
     width: 50%;
     height:auto;
     padding:5% 0;
-  }
-  .skill{
-    display: inline-block;
   }
   #skillOpen{
     display: inline-block;
