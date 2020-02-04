@@ -20,5 +20,9 @@
     height: auto;
     margin:20px 0 0 0;
   }
-
+  .icon{
+    margin:0 auto;
+    height:180px;
+    padding:5% 0;
+  }
 }
