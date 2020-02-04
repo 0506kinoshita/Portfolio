@@ -19,7 +19,6 @@ header h1{
 }
 .margin{
   display: block;
-  margin-bottom:20px;
 }
 .open{
   cursor: pointer;
