@@ -109,11 +109,11 @@ header h1{
 }
 .skills{
   display: flex;
-  margin:28px 10%;
+  margin:20px 5%;
 }
 .icon{
   width: 25%;
-  height: auto;
+  height: 100px;
   padding:0 2%;
 }
 .profile{
