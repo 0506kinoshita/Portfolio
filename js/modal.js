@@ -40,4 +40,10 @@ $(function() {
       filter: 'blur(8px)'
     })
   });
+  $(".okrOpen").click(function(){
+    $(".okrModal").fadeIn();
+    $("#wrapper").css({
+      filter: 'blur(8px)'
+    })
+  });
 });
